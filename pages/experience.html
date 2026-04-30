@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Experience</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="../index.html" class="nav__logo">NB.</a>
+      <div class="nav__links">
+        <a href="../index.html">Home</a>
+        <a href="./experience.html">Experience</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Experience</h1>
+      <p>A high-level overview of my career. Want the full technical deep dive? Hit <strong>Show more</strong> on my current role.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="timeline">
+
+        <!-- Cybele Software -->
+        <div class="timeline__item">
+          <div class="timeline__date">Jan 2024 — Present</div>
+          <div class="timeline__content">
+            <h3>Senior Product Engineer</h3>
+            <p class="company">Cybele Software, Inc.</p>
+            <div class="timeline__summary">
+              <ul>
+                <li>End-to-end architecture, development and ownership of products such as <strong>RBI (Remote Browser Isolation)</strong> — secure virtualization solutions serving <strong>200,000+ users</strong> with Zero Trust access, deployed on each client's own chosen architecture.</li>
+                <li>On <strong>Workspace</strong>, delivered key features, new sections and ongoing maintenance across a microfrontend architecture — including an admin panel with real-time metrics visualization, permission management and product configuration.</li>
+                <li>Designed and built a <strong>Shared File System</strong> for enterprise environments, enabling secure internal file storage, sharing and management across organizations.</li>
+                <li>Led technical initiatives across video streaming, remote desktop protocols, WebAssembly rendering, and Kubernetes-based VM orchestration — delivering measurable performance and scalability gains.</li>
+                <li>Owned UI/UX quality for complex dashboards and real-time data pipelines, driving efficiency in browser-based connectivity and cloud automation.</li>
+                <li>Promoted from Frontend Engineer after 9 months based on impact, system design ownership and technical leadership.</li>
+              </ul>
+            </div>
+            <button class="btn btn--sm" data-toggle-details="cybele-details">Show more <span aria-hidden="true">+</span></button>
+            <div class="timeline__details" id="cybele-details">
+              <h4>Technical Details</h4>
+              <ul>
+                <li><strong>Workspace SPA:</strong> Feature development, new section implementation and maintenance of the product suite configurator. Each client deploys on their own chosen infrastructure. Built with microfrontends, Vue, TanStack Query, SCSS and advanced form validation.</li>
+                <li><strong>RBI (Remote Browser Isolation):</strong> End-to-end architecture and development of secure browser isolation product with Zero Trust access, video streaming and remote desktop virtualization.</li>
+                <li><strong>Messaging Architecture:</strong> Designed and implemented a node-to-node messaging protocol using Protocol Buffers for efficient, type-safe communication across distributed services.</li>
+                <li><strong>Video & Rendering:</strong> Implemented efficient video streaming pipelines and WebAssembly-based video rendering for low-latency browser experiences.</li>
+                <li><strong>Remote Desktop:</strong> Developed RDP (Remote Desktop Protocol) management features and RFB protocol integration with noVNC client for in-browser remote access.</li>
+                <li><strong>Real-time Media:</strong> Engineered real-time audio streaming using Audio Worklets and parallel processing via Web Workers, Shared Workers and Service Workers.</li>
+                <li><strong>Infrastructure:</strong> Orchestrated Kubernetes Pods for on-demand Linux VM deployment, controlled directly from a browser iframe. Built reverse-proxy products and automated cloud scalability.</li>
+                <li><strong>Shared File System:</strong> Architected and developed an internal enterprise file system for secure storage, sharing and management across organizations. Included permission-based access, folder hierarchies and cross-platform compatibility.</li>
+                <li><strong>Cross-OS Integration:</strong> Implemented clipboard syncing between client OS and remote OS with full format support.</li>
+                <li><strong>Frontend Engineer (May 2023 — Jan 2024):</strong> Delivered core product features across JavaScript, Vue.js, Sass, React and TypeScript before promotion.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Vue.js</span>
+                <span class="tag">Golang</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Microfrontends</span>
+                <span class="tag">TanStack Query</span>
+                <span class="tag">WebSockets</span>
+                <span class="tag">Protobuf</span>
+                <span class="tag">WebAssembly</span>
+                <span class="tag">Web Workers</span>
+                <span class="tag">Audio Worklets</span>
+                <span class="tag">RDP</span>
+                <span class="tag">RFB / noVNC</span>
+                <span class="tag">Kubernetes</span>
+                <span class="tag">Reverse Proxy</span>
+                <span class="tag">SCSS</span>
+                <span class="tag">Git</span>
+                <span class="tag">CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Freelance -->
+        <div class="timeline__item">
+          <div class="timeline__date">Mar 2022 — Present</div>
+          <div class="timeline__content">
+            <h3>Full Stack Developer — Freelance</h3>
+            <p class="company">Self-employed</p>
+            <div class="timeline__summary">
+              <ul>
+                <li>Built custom plugins for existing websites, reusable system components, landing pages, e-commerce platforms, CMS integrations, dashboards and dynamic portfolios.</li>
+                <li>Translated complex business needs into fast, reliable and detail-oriented solutions with modern stacks.</li>
+                <li>Owned the full client lifecycle: requirements gathering, architecture, implementation and ongoing support.</li>
+              </ul>
+            </div>
+            <div class="tag-list" style="margin-top: var(--space-4);">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">SQL</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Strapi</span>
+              <span class="tag">Stripe</span>
+              <span class="tag">VPS</span>
+              <span class="tag">Cloud Servers</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hogarth Worldwide -->
+        <div class="timeline__item">
+          <div class="timeline__date">Jun 2022 — May 2023</div>
+          <div class="timeline__content">
+            <h3>Frontend Developer</h3>
+            <p class="company">Hogarth Worldwide <span style="color: var(--text-muted);">— Client: Apple</span></p>
+            <div class="timeline__summary">
+              <ul>
+                <li>Delivered website development, maintenance and localization for Apple across LATAM and Canada markets.</li>
+                <li>Contributed to the development of multiple Apple pages such as <a href="https://www.apple.com/la/iphone/" target="_blank" rel="noopener">apple.com/la/iphone</a> and other regional experiences.</li>
+                <li>Ensured pixel-perfect implementation and cross-market consistency across multiple locales and languages.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
